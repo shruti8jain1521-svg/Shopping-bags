@@ -1,0 +1,454 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.html {
+    font-size: 20px;
+}
+
+:root {
+    --pink: pink;
+    --yellow: yellow;
+    --red: red;
+    --teal: teal;
+    --green: green;
+    --whie: white;
+
+
+}
+
+
+.clearfix::after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+.inner {
+    /* background-color: var(--yellow); */
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+
+.icon{
+    display: none;
+}
+
+.main {
+    /* background-color: var(--red); */
+    background-color: white;
+
+}
+
+header {
+    background-color: var(--white);
+    height: 100vh;
+    width: 100%;
+    background-image: url("../images/ChatGPT\ Image\ May\ 10\,\ 2026\,\ 01_58_17\ PM.png");
+    background-size: cover;
+    transition: 3s;
+
+
+}
+
+header:hover {
+    transform: scale(103%);
+    background-image: url("../images/ChatGPT\ Image\ May\ 10\,\ 2026\,\ 02_01_12\ PM.png");
+}
+
+.box1 {
+    /* background-color: var(--teal); */
+    float: left;
+    width: 3%;
+    font-size: 30px;
+}
+
+.box2 {
+    /* background-color: var(--teal); */
+    float: left;
+    margin-left: 10px;
+    width: 25%;
+    font-size: 1.5rem;
+}
+
+.box3 {
+    width: 60%;
+    /* background-color: var(--teal); */
+    float: left;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+nav li {
+    list-style: none;
+    float: left;
+}
+
+li a {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 15px;
+    color: black;
+
+}
+
+.box4 {
+    /* background-color: var(--teal); */
+    width: 5%;
+    float: right;
+    font-size: 30px;
+}
+
+.banner {
+    /* background-color: palegreen; */
+    width: 40%;
+    margin-top: 200px;
+    margin-left: 150px;
+}
+
+.banner h1 {
+    font-size: 50px;
+}
+
+.banner p {
+    padding-top: 30px;
+    font-size: 1.3rem;
+}
+
+button {
+    background-color: var(--green);
+    font-size: 17px;
+    color: white;
+    margin-top: 50px;
+    padding: 18px;
+    border: none;
+}
+
+/* first section ends here */
+
+
+/* second section starts here */
+.second-section {
+    /* background-color: var(--pink); */
+    margin-top: 80px;
+}
+
+.second-top {
+    /* background-color: tomato; */
+
+}
+
+.box {
+    width: 24%;
+    /* margin: 10px; */
+    /* background-color: palevioletred; */
+    /* overflow: hidden; */
+}
+
+.box h2 {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.box p {
+    margin-top: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    transition: 2s;
+}
+
+img:hover {
+    transform: scale(108%);
+
+}
+
+.box-a {
+    float: left;
+    background-size: contain;
+}
+
+
+.box-a img {
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+.box-b,
+.box-c {
+    float: left;
+    margin-left: 15px;
+}
+
+.box-d {
+    float: right;
+}
+
+/* second section ends */
+
+/* third section starts */
+.third-section {
+    /* background-color: var(--pink); */
+    margin-top: 40px;
+}
+
+.third-top {
+    /* background-color: tomato; */
+}
+
+/* third section ends */
+
+
+
+
+
+
+/* fourth section starts here */
+.fourth-section {
+    /* background-color: var(--pink); */
+    margin-top: 40px;
+
+}
+
+.fourth-top {
+    /* background-color: tomato; */
+}
+
+/* fourth section ends */
+
+
+
+
+/* fifth section starts */
+
+.fifth-section {
+    /* background-color: red; */
+    margin-top: 80px;
+    margin-bottom: 40px;
+   
+    box-shadow: rgba(56, 148, 171, 0.04) 0px 0px 0px 1px, rgba(46, 123, 132, 0.04) 0px 1px 1px -0.5px, rgba(42, 51, 70, 0.04) 0px 3px 3px -1.5px, rgba(42, 51, 70, 0.04) 0px 6px 6px -3px, rgba(14, 63, 126, 0.04) 0px 12px 12px -6px, rgba(114, 148, 193, 0.04) 0px 24px 24px -12px;
+
+}
+
+.fifth-section img {
+    width: 100%;
+   
+    /* margin: 110px; */
+
+}
+
+/* .fifth-top{
+    background-color: pink;
+    background-size: contain;
+    
+}
+.fifth-top img{
+    width: 100%;
+    height: 100vh;
+    background-size: contain;
+    margin-bottom: 40px;
+} */
+/* fifth section ends */
+
+
+
+
+
+/* footer starts */
+footer {
+    /* background-color: greenyellow; */
+
+
+}
+
+.footer-top {
+    /* background-color: blue; */
+    text-align: center;
+    padding: 20px;
+    padding-top: 30px
+}
+
+.footer-content {
+    /* background-color: red; */
+}
+
+.footer-top span {
+    padding-left: 30px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.footer-content ul {
+    margin: auto;
+    width: 800px;
+}
+
+.footer-content li {
+    list-style: none;
+    margin-top: 20px;
+    padding-left: 40px;
+    float: left;
+}
+
+.footer-content li a {
+    color: black;
+    text-decoration: none;
+}
+
+.footer-bottom {
+    background-color: #ededed;
+    padding: 30px;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.footer-top .fa {
+    color: #e2e2e2;
+}
+
+/* footer ends */
+
+
+
+
+/* media query */
+@media only screen and (max-width:992px) {
+    header {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: right;
+
+    }
+
+    .banner {
+        text-align: center;
+        margin-left: 50px;
+
+    }
+
+
+    .box1 {
+        width: 2%;
+    }
+
+    .box2 {
+        width: 20%;
+        font-size: 15px;
+        padding-left: 15px;
+    }
+
+    .box3 {
+        width: 65%;
+
+    }
+
+    .box3 li a {
+        font-size: 12px;
+    }
+
+   
+}
+
+
+@media only screen and (max-width:768px){
+  
+
+    .box2{
+        width: 30%;
+        padding-top: 10px;
+    }
+
+    .box3{
+        margin-left: 20px;
+        display: none;
+    }
+    .box3 li a{
+        font-size: 10px;
+    }
+
+    .icon{
+        display: block;
+        float: right;
+        padding-top: 15px;
+    }
+
+    .box4{
+       display: none;
+
+    }
+
+    .second-top .box{
+        width: 48%;
+        margin-bottom: 40px;
+
+    }
+
+    .third-top .box{
+        width: 48%;
+        margin-bottom: 40px;
+    }
+
+    .fourth-top .box{
+        width: 48%;
+        margin-bottom: 40px;
+    }
+
+    .footer-content li{
+        width: 48%;
+    }
+}
+
+
+@media only screen and (max-width:576px){
+    .banner{
+        margin-top: 30px;
+        width: 60%;
+    }
+
+    header{
+        background-position: left;
+    }
+
+    .box2{
+        width: 50%;
+    }
+
+    .second-top .box{
+        width: 98%;
+        margin-bottom: 40px;
+
+    }
+
+    .third-top .box{
+        width: 98%;
+        margin-bottom: 40px;
+    }
+
+    .fourth-top .box{
+        width: 98%;
+        margin-bottom: 40px;
+    }
+
+    .footer-content li{
+        width: 65%;
+        margin-right: 50px;
+        text-align: center;
+      
+    }
+
+    
+
+    
+
+}
